@@ -5,7 +5,7 @@ header {background: lightgrey;}
 .row {padding: 50px;}
 
 /* Home Page */
-.row-main-information h1{ font-size: 8em; vertical-align: bottom; }
+.row-main-information h1{ font-size: 6em; vertical-align: bottom; }
 .row-post-summary { background: lightgrey;}
 .row-photos img{
  z-index: 1;

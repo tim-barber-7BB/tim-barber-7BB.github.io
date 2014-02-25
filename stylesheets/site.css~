@@ -24,7 +24,7 @@ header {background: lightgrey;}
 /* Post page */
 .row-post {font-size: 1.5em; padding: 0;}
 .row-post h1 {font-size: 2.5em; padding-bottom: 20px;}
-.row-post h3 {padding-left: 20px; padding-bottom: 20px;}
+.row-post h3 {padding-left: 20px; padding-bottom: 20px; margin-top: 50px}
 .row-post .latest-blogs {list-style: none;}
 
 /* Footer */
