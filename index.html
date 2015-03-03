@@ -1,53 +1,36 @@
 ---
-layout: default 
-title: Tim Barber
+layout: page
+description: "A .NET Architect with a passion for craftsmanship and getting things done right."
 ---
 
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+    </a>
+    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+</div>
+<hr>
+{% endfor %}
 
-          <div class="row row-main-information">
-          <div class="container">
-            <div class="col-sm-5">
-              <h1>Tim Barber</h1>
-            </div>
-            <div class="col-sm-7 ">
-              <h2>I'm a professional .NET Architect specialising in creating Enterprise Applications. I'm passionate about
-              software craftsmanship, SOLID principles and best practises. I'm also enjoying learning about non-microsoft technologies 
-              and I've recently developed an interest in <a href="http://www.flickr.com/photos/94764447@N04/" >photography</a>. </h2>
-            </div>
-            </div>
-          </div>
-
-          <div class="row row-post-summary">
-              <div class="container">
-              <div class="col-sm-12">
-              <h2>Blog</h2>
-              </div>
-                {% for post in site.posts limit:3 %}
-                    <div class="col-sm-4">
-                          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                          <p>{{ post.excerpt }}</p>
-                    </div>
-                {% endfor %}
-              </div>
-          </div>
-          
-          <div class="row row-photos">
-            <div class="container">
-                <div class="col-sm-12">
-                  <h2>Photos</h2>
-                </div>
-                  <div class="col-sm-4">
-                    <a href="https://www.flickr.com/photos/94764447@N04"><img src="/images/balloon.jpg" alt="a balloon above bristol" class="img-circle"></a>
-                  </div>
-                  <div class="col-sm-4">
-                    <a href="https://www.flickr.com/photos/94764447@N04"><img src="/images/bridge.jpg" alt="clifton suspension bridge" class="img-circle"></a>
-                  </div>
-                  <div class="col-sm-4">
-                    <a href="https://www.flickr.com/photos/94764447@N04"><img src="/images/trumpet.jpg" alt="some arty thing in a tree" class="img-circle"></a>
-                </div>
-            </div>
-          </div>
-
-        
-
-
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}

@@ -1,1 +1,11 @@
+title: Tim Barber
+description: "Developer, craftsman, legend."
+
 permalink: /blog/:year/:month/:title
+header_img: img/home-bg.jpg
+
+twitter_username: tim_barber_7bb
+github_username:  tim-barber-7bb
+linkedin_username:  tim-barber/83/444/a38
+
+paginate: 5
