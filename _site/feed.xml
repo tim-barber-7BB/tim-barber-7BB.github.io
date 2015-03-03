@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tim Barber</title>
+    <description>Developer, craftsman, legend.</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 03 Mar 2015 18:59:40 +0000</pubDate>
+    <lastBuildDate>Tue, 03 Mar 2015 18:59:40 +0000</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Welcome to my first blog post on Jekyll</title>
+        <description>&lt;p&gt;I’ve needed to sort out my blog for a long while. I’d had dreams of writing my own, in .NET and then ruby, but I never got around to it. Now I’m thinking why
+re-invent the wheel? So I was looking for a new solution. I had some criteria:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Free to host- Why would I want to pay if I can avoid it?&lt;/li&gt;
+  &lt;li&gt;I can host on my own URL.&lt;/li&gt;
+  &lt;li&gt;Quick - Like everyone else I want a nice and snappy blog.&lt;/li&gt;
+  &lt;li&gt;Customisable - I’m a software professional. I like to play around a bit.&lt;/li&gt;
+  &lt;li&gt;Not too difficult once you get into it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Which led me on a little search across the internet. The ultimate conclusion of which was that I should give &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; a go and host the site on
+&lt;a href=&quot;http://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;. This fulfilled the ultimate requirement; its free. Now, how about hosting on your own domain? Yep,
+ &lt;a href=&quot;http://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; let you do that as well. Bonus.&lt;/p&gt;
+
+&lt;p&gt;Speed is a very important issue. I’ve put things up on the free offering of &lt;a href=&quot;https://www.heroku.com/&quot;&gt;Heroku&lt;/a&gt;, &lt;a href=&quot;http://http://www.windowsazure.com/&quot;&gt;Azure&lt;/a&gt; 
+and &lt;a href=&quot;https://appharbor.com/&quot;&gt;AppHarbour&lt;/a&gt;; they were all very slow for the free offering, with the real problem being startup time if the application fell 
+asleep. So, why is &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and &lt;a href=&quot;http://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; different. &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; is essentially a 
+parsing engine that takes your your posts, written in &lt;a href=&quot;http://whatismarkdown.com/&quot;&gt;markdown&lt;/a&gt; for me and then converts them into a full static website. Complete with layouts
+for code reuse. It’s a bit like a push CMS. It runs as a ruby gem which creates the site which I then push to GitHub and its ready straight away. I’ll give you some
+useful links at the end of the post.&lt;/p&gt;
+
+&lt;p&gt;I’ve combined Jekyll with &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Twitter Bootstrap&lt;/a&gt; to give me a really nice and easy to style blog. I’m really happy with the result and I’ll
+continue to refine it for a while. Adding categories and tags, maybe add &lt;a href=&quot;http://disqus.com/&quot;&gt;disquss&lt;/a&gt; if it gets busy. I hope you like it.&lt;/p&gt;
+
+&lt;p&gt;Check out these links for some handy tutorials:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pages.github.com/&quot;&gt;Get started with GitHub Pages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/docs/quickstart/&quot;&gt;The Jekyll tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://daringfireball.net/projects/markdown/basics&quot;&gt;Markdown Syntax&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
+        <link>/blog/2014/02/my-first-post-with-jekyll</link>
+        <guid isPermaLink="true">/blog/2014/02/my-first-post-with-jekyll</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
